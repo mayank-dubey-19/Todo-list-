@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container0">
+        <div style="margin-top: 20px; margin-bottom: 25px;">
+            <h1> my todo list </h1>
+        </div>
+        <div style="display: flex; align-items: center; margin: 25px 0;">
+            <div style="margin: 20px; flex: 1;">
+                <input type="text" class="input" placeholder="Add a new task...">
+            </div>
+            <div class="add" style="margin: 20px; height: 50px; width: 50px; display: flex; align-items: center; justify-content: center; cursor: pointer;">
+               <p>ADD</p>
+            </div>
+        </div>
+        <div style="margin-top: 25px; margin-bottom: 10px; padding-top: 22px;">
+           <div style="margin-bottom: 15px; padding: 0 20px;">
+                <p>📋 Today's Task</p>
+           </div>
+           <div> 
+                <ul class="tasklist">
+                    <li class="para"> No task available</li>
+                </ul> 
+           </div>
+        </div>
+        <div style="display: flex; justify-content: space-around; align-items: center; margin: 25px 0; padding: 15px 0;">
+            <div>
+                <p class="total">Total : 0</p>
+            </div>
+            <div>
+                <p class="complete"> Complete : 0</p>
+            </div>
+            <div>
+                <p class="remaining">Remining : 0</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
