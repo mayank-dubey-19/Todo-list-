@@ -31,5 +31,5 @@ click on the link to preview this repo :  https://mayank-dubey-19.github.io/Todo
 
 ## 📸 Screenshot
 
-<img width="1100" height="600" alt="image" src="https://github.com/user-attachments/assets/8758bdd6-c57f-443a-9368-a6eec377cb33" />
+<img width="1100" height="750" alt="image" src="https://github.com/user-attachments/assets/8758bdd6-c57f-443a-9368-a6eec377cb33" />
 
