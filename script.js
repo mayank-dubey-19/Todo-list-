@@ -40,11 +40,11 @@ function addelement(tasktext , taskIndex){
         task.splice(taskIndex, 1);
         localStorage.setItem("task", JSON.stringify(task));
         all--;
-        if(complete>0){
+       if(complete>0 && checkbox.checked==true){
             complete--;
         }
         document.querySelector(".complete").innerHTML = "Complete : "+complete;
-        if(remain>0){
+        if(remain>0 && checkbox.checked==false){
             remain--;
         }
         document.querySelector(".total").innerHTML = "Total : "+all;
