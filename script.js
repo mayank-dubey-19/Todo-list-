@@ -104,7 +104,7 @@ function addtask(){
 add.addEventListener("click" , function(){
     addtask();
 });
-add.addEventListener("keydown", (e) => {
+input.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
         addtask();
     }
