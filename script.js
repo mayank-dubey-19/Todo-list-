@@ -40,7 +40,9 @@ function addelement(tasktext , taskIndex){
         task.splice(taskIndex, 1);
         localStorage.setItem("task", JSON.stringify(task));
         all--;
-        complete--;
+        if(complete>0){
+            complete--;
+        }
         document.querySelector(".complete").innerHTML = "Complete : "+complete;
         if(remain>0){
             remain--;
