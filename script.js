@@ -82,7 +82,7 @@ task.forEach((element , index ) => {
 
 });
 
-add.addEventListener("click" , function(){
+function addtask(){
 
     let tasklist = input.value.trim();
     if(tasklist === ""){
@@ -100,5 +100,12 @@ add.addEventListener("click" , function(){
     addelement(tasklist, task.length -1);
 
     input.value = " ";
-    
+}
+add.addEventListener("click" , function(){
+    addtask();
+});
+add.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+        addtask();
+    }
 });
